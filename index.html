@@ -5,11 +5,11 @@
         <meta http-equiv="x-UA-compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Portfolio Site</title>
-       /* <link rel="stylesheet" type="text/css" href="css/bootstrap.css">*/
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -17,21 +17,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="title-logo" <img src="http://danielmmelo.com/p1-copy/images/logo.svg">
+                    <img src="http://udacity.github.io/fend/images/udacity.png" alt="logo">
                 </div>
                 <div class="col-md-6 text-right text-uppercase">
                     <h1 class="title-super text-thin">Jane Doette</h1>
                     <h4>Front-end Ninja</h4>
                 </div>
             </div>
-            <div class="row">
+            <div class="row">
                 <div class="cd-md-12">
                     <hr>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <img class="img-responsive center-block" src="http://placekitten.com/g/1000/600" alt="Main puppy Image!">
+                    <picture id="banner">
+                        <source media="(min-width: 750px)" srcset="images/still_life-1600_large_2x.jpg 2x, images/still_life-800_large_1x.jpg" />
+                        <source media="(min-width: 500px)" srcset="images/still_life_medijpg" />
+                        <img src="images/still_life_small.jpg" alt="Vase, fruit bowl and other objects on a cupboad">
+                    </picture>
                 </div>
             </div>
             <div class="row">
@@ -41,21 +45,41 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img class="img-responsive" src="http://placekitten.com/g/400/400" alt="cat">
-                    <h3 class="text-upercase">Appify</h3>
-                    <p>https://github.com/udacity/appify</p>
+                     <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="images/volt-1600_large_2x.jpg 2x, images/volt-800_large_1x.jpg"  />
+                            <source media="(min-width: 500px)" srcset="images/volt_medium.jpg" />
+                            <img src="images/volt_small.jpg" alt="Volt sign in old Berlin power station">
+                        </picture>
+                        <figcaption>Sign in old Berlin power station</figcaption>
+                    </figure>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive" src="http://placekitten.com/g/400/400" alt="cat">
-                    <h3 class="text-uppercase">Sunflower</h3>
-                    <p>https://github.com/udacity/sunflower</p>
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="images/cockatoos-1600_large_2x.jpg 2x, images/cockatoos-800_large_1x.jpg" />
+                            <source media="(min-width: 500px)" srcset="images/cockatoos_medium.jpg" />
+                            <img src="images/cockatoos_small.jpg" alt="Cockatoos on a verandah in Victoria, Australia">
+                        </picture>
+                        <figcaption>Cockatoos</figcaption>
+                    </figure>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive" src="http://placekitten.com/g/400/400" alt="cat">
-                    <h3 class="text-uppercase">Bokeh</h3>
-                    <p>https://github.com/udacity/bokeh</p>
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="images/postcard-1600_large_2x.jpg 2x, images/postcard-800_large_1x.jpg" />
+                            <source media="(min-width: 500px)" srcset="images/postcard_medium.jpg" />
+                            <img src="images/postcard_small.jpg" alt="French postcard from 25 November 1914">
+                        </picture>
+                        <figcaption>French postcard, 25 November 1914</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
     </body>
 </html>
+
+        
+    
+                
+                    
